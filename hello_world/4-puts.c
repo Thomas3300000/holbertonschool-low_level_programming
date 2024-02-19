@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/* imprime un message avec la fonction puts */
-
 int main(void)
+
+/* imprime un message avec la fonction puts */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
