@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 
 /* imprime un message avec la fonction puts */
 {
