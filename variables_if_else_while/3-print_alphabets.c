@@ -1,18 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Ecris l'alphabet en minuscule
+ * main - prints the alphabet in lowercase, and then in uppercase
  *
  * Return: 0
  */
 int main(void)
 {
 	char alphabet = 'a';
+	char letters = 'A';
 
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
+	}
+	putchar('\n');
+
+	while (letters <= 'Z')
+	{
+		putchar(letters);
+
+		letters++;
 	}
 	putchar('\n');
 	return (0);
