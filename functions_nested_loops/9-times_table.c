@@ -17,9 +17,9 @@ void times_table(void)
 			int a;
 			a = num1 * num2;
 
-			if (num1 == 0)
+			if (num2 == 0)
 			{
-				_putchar(a);
+				_putchar(a + '0');
 			}
 			else if (a <= 9)
 			{
