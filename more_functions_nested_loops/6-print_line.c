@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - check the code
- * @n: 
+ * @n: the number of times the character _
  *
  * Return: 0.
  */
@@ -14,4 +14,4 @@ void print_line(int n)
 		_putchar('_');
 	}
 	_putchar('\n');
-}	
+}
