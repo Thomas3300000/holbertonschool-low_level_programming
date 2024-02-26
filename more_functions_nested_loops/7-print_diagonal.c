@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_line - check the code
+ * print_diagonal - check the code
  * @n: the number of times the character _
  *
- * Return: 0.
+ * Return: 0
  */
 void print_diagonal(int n)
 {
