@@ -20,6 +20,7 @@ void puts_half(char *str)
 		else
 		{
 			a = cpt / 2;
+			a += 1;
 		}
 	}
 
