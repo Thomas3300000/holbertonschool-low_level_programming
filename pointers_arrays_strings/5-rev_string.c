@@ -9,24 +9,20 @@
  */
 void rev_string(char *s)
 {
-	int a;
-	int b = 0;
-	int c;
+	int cpt;
+	int b;
+	int tempo;
+	int c = 0;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (cpt = 0; s[cpt] != '\0'; cpt++)
 	{
-		_putchar(s[a]);
 	}
-	_putchar('\n');
+	c = cpt - 1;
+	for (b = 0; b <= c; b++,c--)
+	{
+		tempo = s[b];
+		s[b] = s[c];
+		s[c] = tempo;
+	}
 	
-	while (s[b])
-	{
-		b++;
-	}
-
-	for (c = b - 1; s[c] != '\0'; c--)
-	{
-		_putchar(s[c]);
-	}
-	_putchar('\n');
 }
