@@ -18,11 +18,11 @@ void rev_string(char *s)
 	{
 	}
 	c = cpt - 1;
-	for (b = 0; b <= c; b++,c--)
+	for (b = 0; b <= c; b++, c--)
 	{
 		tempo = s[b];
 		s[b] = s[c];
 		s[c] = tempo;
 	}
-	
+
 }
