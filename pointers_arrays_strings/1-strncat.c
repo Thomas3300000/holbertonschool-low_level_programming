@@ -7,7 +7,7 @@
  *
  * @dest: string destination
  * @src: string source
- * @n: octet checked
+ * @n: octet limit
  *
  *
  * Return: dest

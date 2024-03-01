@@ -20,7 +20,7 @@ char *_strcpy(char *dest, char *src)
 		cpt++;
 	}
 
-	dest[cpt++] = '\0';
-
 	return (dest);
+
+	dest[cpt++] = '\0';
 }
