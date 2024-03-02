@@ -23,7 +23,7 @@ char *cap_string(char *str)
 				str[a - 1] == 44 || str[a - 1] == 46 ||
 				str[a - 1] == 59 || str[a - 1] == 63 ||
 				str[a - 1] == 123 || str[a - 1] == 125 ||
-				str[a] == 0)
+				str[a - 1] == 0)
 			str[a] = str[a] - 32;
 		}
 	}
