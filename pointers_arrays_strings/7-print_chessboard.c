@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_chessboard - function that prints the chessboard
  * @a: multidimensionnal array to print
  *
  * Return: Always 0.
