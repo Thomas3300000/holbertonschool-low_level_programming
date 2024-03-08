@@ -30,3 +30,14 @@ Task 7 : fonction qui encode une chaîne de caractères en 1337.
 		Les lettres o et O doivent être remplacées par 0
 		Les lettres t et T sont remplacées par 7
 		Les lettres l et L sont remplacées par 1
+
+				Projet 3:
+
+Task 0 : fonction qui remplit la mémoire avec un octet constan
+Task 1 : fonction qui copie une zone de mémoire
+Task 2 : fonction qui localise un caractère dans une chaîne de caractè
+Task 3 : fonction qui obtient la longueur d'une sous-chaîne de préfixe
+Task 4 : fonction qui recherche dans une chaîne l'un des octets d'un ensemble de données
+Task 5 : 
+Task 6 : fonction qui imprime l'échiquier
+Task 7 : fonction qui imprime la somme des deux diagonales d'une matrice carrée d'entier 
